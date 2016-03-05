@@ -1,0 +1,62 @@
+/* CSS Document */
+body{ background: linen; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, linen); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, linen); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, linen); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, linen); /* Standard syntax */
+  font-size: 19px;
+    
+	
+	
+	
+}	
+}
+
+
+
+
+#one{color:red;}	
+#two{color:orange;}
+#three{color:yellow;}
+#four{color:green;}
+#five{color: blue;}
+#six{color: violet;}
+#seven{color: black;}
+#eight{color: white;
+       text-shadow:black;
+p{
+	text-align:left;
+	color:hsla(0,86%,5%,1.00);
+}
+#modes{ background-color:#EEB173;
+	
+    
+}
+
+
+#theory{ background-color:#685B3E;}
+	
+}
+
+#models { background-color:#C095EB;
+	 
+}
+
+#psychology{ background-color:#4AD0F3;}
+  
+p.one{color:black;}
+p.two{color:#070921;}
+p.three{color:#1E0F05;}
+h1{
+	text-align:center;
+	font-size: 80px; 
+	color:purple;}
+
+
+h2{ 	
+	text-align:center;
+	color:hsla(219,87%,28%,1.00)}
+h3{ 
+	text-align: center;
+	color:hsla(119,64%,14%,1.00)}
+

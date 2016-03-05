@@ -1,0 +1,25 @@
+/* CSS DOCUMENT */
+
+h1{ color:blue;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;}
+
+h2{ color:crimson;
+    text-align: center;}
+
+h3{ color:darkgreen;
+    text-align: center;}
+li{color:cadetblue;}
+
+body{  
+    margin-bottom:100px ;
+      margin-top: 15px;
+      margin-left:150px ;
+      margin-right:100px;
+      ;}
+
+ol{text-align: left;
+    color:black;
+   background-color: cornsilk;}
+li{color:black;}

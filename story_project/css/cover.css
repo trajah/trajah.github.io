@@ -1,0 +1,55 @@
+/* CSS Document */
+
+
+
+body {
+    background: hsla(59,25%,66%,1.00) url('../images/cloudy_storm.jpg');
+	background-repeat:no-repeat;
+	background-attahment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+  background-image: url('../images/cloudy_storm.jpg');
+}
+
+#title {
+	position: absolute;
+	bottom: 45%;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	border: 1px solide white;
+
+}
+
+
+#title h1 a:link, #title h1 a:visited {
+	color:bisque;
+	font-size: 72px;
+	text-decoration: none;
+
+}
+#title h1 a:hover {
+	color: white;
+	font-size: 72px;
+	text-decoration: underline;
+}
+
+
+title h1 a:active {
+	color: red;
+	font-size: 72px;
+	text-decoration:underline;
+}
+h1{text-align:center;
+color:sandybrown;
+}
+
+h2{text-align:center;
+color:hsla(359,67%,34%,1.00);}
+
+body{text-align:center;
+     
+}
+
