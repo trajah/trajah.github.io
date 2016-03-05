@@ -6,7 +6,7 @@ body{ background: linen; /* For browsers that do not support gradients */
   background: linear-gradient(to bottom right, linen); /* Standard syntax */
   font-size: 19px;
   margin:10%;
-  padding-top: 50px;
+  padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 30px
