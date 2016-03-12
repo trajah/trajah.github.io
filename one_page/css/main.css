@@ -5,11 +5,13 @@ h1{ color:blue;
     text-align: center;
     text-decoration: underline;}
 
+
 h2{ color:crimson;
     text-align: center;}
 
 h3{ color:darkgreen;
     text-align: center;}
+div{ }
 li{color:cadetblue;}
 
 body{  
@@ -17,9 +19,41 @@ body{
       margin-top: 15px;
       margin-left:150px ;
       margin-right:100px;
-      ;}
+  
+      }
 
 ol{text-align: left;
     color:black;
-   background-color: cornsilk;}
+   background-color: cornsilk;
+   border: 15px solid purple;}
 li{color:black;}
+#img{
+    padding-right: 20px;
+    padding-left: 40px;
+    width:
+        margin-right: 450px;
+        float:left;
+}
+#one{ width:100%;
+    border: 4px double red;
+    margin: 0px;
+}
+
+#two{ width:90%;
+      padding:10%;
+      margin: 10px;
+    
+}
+#three{ width:88%;
+}
+#four{ width:68%;
+}
+#five{width:68%;
+    
+}
+#six{width:68%;
+    
+}
+#seven{width:68%;
+    
+}
