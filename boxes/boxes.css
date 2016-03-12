@@ -1,0 +1,40 @@
+body{
+    
+}
+h1{ text-align: center;
+    font-size: 40px;
+    color:blueviolet;
+    
+}
+
+#one{
+    background-color: antiquewhite;
+    margin-left:100px;
+      margin-right:100px;
+    
+}
+
+#two{background-color:chartreuse; 
+    padding:100px;
+    
+}
+
+#three{ background-color: azure;
+    border-style: groove;
+    border: 2px;
+    padding: 20px;
+    height: 20%;
+    width: 90%
+    
+}
+#four{ background-color: burlywood;
+    padding-right;1%;
+    float: left;
+    width:49%;
+    
+}
+#five{ background-color: darkgrey;
+    padding-right:1%;
+    float:left;
+    width:49%;
+}
