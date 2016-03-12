@@ -1,11 +1,44 @@
 h1{
     text-align: center;
-    color: darkslategrey;
-    font-size: 50px;
+    color:hsla(52,49%,85%,1.00);
+    font-size: 100px;
 }
+h2{
+	
+}
+
+body{ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style:inherit;
+	  color:hsla(177,51%,76%,1.00);
+	  font-size:24px;
+	  background-image:url(../images/amish-people.jpg);
+	  background-repeat:no-repeat;
+	background-attahment: fixed;
+	background-position: center;
+	
+	background-size:cover;
+	
+}
+
+
 .a{
-    padding:10px;
+    font-family:unifrakturcook;
+	font-size:36px;
+	text-align:center;
+	padding:10px;
     width: 70%;
     margin:10%;
     float:left;
+}
+.b{
+	width: 70%;
+	float: left;
+	padding: 30px;
+	
+}
+.c{
+	width: 70%;
+	float: left;
+	padding: 30px;
+	
 }
