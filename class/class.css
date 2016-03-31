@@ -1,0 +1,23 @@
+/* CSS STYLE */
+
+#pullquote{
+    font-family: cursive;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.important{
+    text-decoration-style: solid;
+    font-size: 34px;
+    font-weight: 300;
+    
+    
+}
+
+.importantadmittance{
+    color: red;
+    
+    
+}
