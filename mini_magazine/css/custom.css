@@ -1,0 +1,79 @@
+/* CSS Document */
+<!---Google Fonts --->
+@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
+/* Development Helper Style */
+.col{
+	background: #ddd;
+	box-sizing:border-box;
+}
+
+/* main style */
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+		
+}
+
+header {
+	height:6em; /*6*16px*/
+	text-align:center;
+	padding: 2em;
+	background: #ddd;
+	margin-bottom: 0.5em;
+	
+       }
+	   
+#container{
+	width:80%;
+	margin: 0 auto;
+}
+	   
+nav .col{ background: none;
+       border: 1px solid #555;
+	   text-align:center;
+	   box-sizing:border-box;
+	   
+	
+	
+}
+
+#banner{
+	background: hsla(249,58%,74%,1.00);
+	height:10em;
+	margin-bottom: .5em;
+	
+	
+}
+#row1 .col, #row2 .col{ 
+            height:6em;
+			
+}
+#row2 .col{
+	    height:6em;
+}
+	   
+
+/* type styles */
+h1{ 
+font-family: 'Inknut Antiqua', serif;
+font-size: 5em;
+    font-weight:100;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin-bottom: .5em;
+}
+
+header h2{
+	font-family: 'Ultra', serif;
+	font-size:1em;
+	font-weight:100;
+	
+	
+}
+nav ul li a { font-family: 'Ultra', serif;
+font-size: 2em;}
+
+a:visited{ color: hsla(179,42%,48%,1.00);}
+a:hover{color: hsla(26,51%,56%,1.00);}
+a:active{color: hsla(108,48%,52%,1.00);}
