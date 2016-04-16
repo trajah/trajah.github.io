@@ -51,7 +51,7 @@ nav li:last-child a {
     border-right: 0;  
 } 
 
-nav a:hover, nav a:active {  
+nav a:hover, nav a:active, nav .selected {  
     background-color: #56A7DC;  
 }
 nav a:visited {
