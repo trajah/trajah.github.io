@@ -42,7 +42,7 @@ nav a {
   text-shadow: 1px 1px 0px #000;
 } 
 nav li a {  
-    border-right: 1px solid #666;  
+    border-right: 1px solid #EFE4E5;  
     box-sizing:border-box;  
     -moz-box-sizing:border-box;  
     -webkit-box-sizing:border-box;  
