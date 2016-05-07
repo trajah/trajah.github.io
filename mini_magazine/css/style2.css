@@ -4,17 +4,22 @@ h1{
     font-size: 100px;
 }
 h2{ font-size:50px;
-	
+     text-align: center;
+	 color:rgba(35,38,81,1.00)}
+h3{font-size: 30px;
+   text-align: center;	
+   color: rgba(48,14,9,1.00);
 }
 img{ background-repeat:no-repeat;
 	
 	background-position:center;
 	opacity:21;}
 
-body{ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-style:inherit;
-	  color:hsla(177,51%,76%,1.00);
-	  font-size:14px;
+body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+      font-style:normal;
+	  font-weight:normal;
+	  color:rgba(0,0,0,1.00);
+	  font-size:18px;
 	  
 	
 	
@@ -25,22 +30,39 @@ body{ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .a{
     font-family:unifrakturcook;
-	font-size:24px;
-	text-align:center;
+	font-size:18px;
+	text-align:left;
 	padding:10px;
     width: 70%;
-    margin:10%;
+    margin-top:30%;
+	margin-left:10%;
     float:left;
 }
 .b{
-	width: 70%;
-	float: left;
-	padding: 30px;
+	ont-family:unifrakturcook;
+	font-size:18px;
+	text-align:left;
+	padding:10px;
+    width: 70%;
+    margin-top:40px;
+	margin-left:10%;
+    float:left;
 	
 }
 .c{
 	width: 70%;
 	float: left;
 	padding: 30px;
+	margin: 40px;
 	
 }
+#sticky footer{position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;}
+   img.align-center{
+	   display: block;
+	   margin: 20px auto;
+   }
