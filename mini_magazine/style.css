@@ -4,10 +4,10 @@
       width: 100%;  
       background:#995E0C;  
       font-size: 11pt;  
-      font-family: Arial, sans-serif;  
-      font-weight: bold;  
+      font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+      font-weight:bolder;  
       position: relative;  
-      border-bottom: 1px solid #666;  
+      /*border-bottom: 1px solid #666;*/
   }  
   nav ul {  
       padding: 0;  
@@ -40,7 +40,7 @@ nav a {
   text-align: center;  
   text-decoration: none;  
   line-height: 40px;  
-  text-shadow: 1px 1px 0px #000;
+ 
 } 
 nav li a {  
     border-right: 1px solid #EFE4E5;  
