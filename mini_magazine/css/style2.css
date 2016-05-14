@@ -1,4 +1,4 @@
-1{
+h1{
     text-align: center;
     color:hsla(359,88%,17%,1.00);
     font-size: 70px;
@@ -75,18 +75,14 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 	   display: block;
 	   margin: 20px auto;
    }
-<<<<<<< HEAD
-   
-=======
    .left {
-		width: 40%;
+		width: 35%;
 		padding: 5%;
 		float: left;
 		min-width: 320px;}
 		
 		.right{
-		width: 40%;
+		width: 35%;
 		padding: 5%;
 		float: left;
 		min-width: 320px;}
->>>>>>> origin/master
