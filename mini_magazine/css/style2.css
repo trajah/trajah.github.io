@@ -1,18 +1,14 @@
-h1{
+1{
     text-align: center;
     color:hsla(359,88%,17%,1.00);
-    font-size: 100px;
-	margin-bottom:10px;
+    font-size: 70px;
 }
 h2{ font-size:50px;
      text-align: center;
-	 color:rgba(35,38,81,1.00);
-	 margin-bottom:10px;
-	 }
+	 color:rgba(35,38,81,1.00)}
 h3{font-size: 30px;
    text-align: center;	
    color: rgba(48,14,9,1.00);
-   margin-bottom:10px;
 }
 img{ background-repeat:no-repeat;
 	
@@ -24,6 +20,7 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 	  font-weight:normal;
 	  color:rgba(0,0,0,1.00);
 	  font-size:18px;
+	  background: #DCD7A2; 
 	  
 	
 	
@@ -36,37 +33,36 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
     font-family:unifrakturcook;
 	font-size:18px;
 	text-align:left;
-	line-height:1.2em;
 	padding:10px;
     width: 70%;
-    margin-top:20%;
+    margin-top:30%;
 	margin-left:10%;
     float:left;
 }
-.b{
-	font-family:unifrakturcook;
+.aa{ font-family:unifrakturcook;
 	font-size:18px;
 	text-align:left;
-	line-height:1.2em;
 	padding:10px;
-    max-width:30%;
+    width: 70%;
+    margin-top:15%;
+	margin-left:10%;
+}
+.b{
+	ont-family:unifrakturcook;
+	font-size:18px;
+	text-align:left;
+	padding:10px;
+    width: 70%;
     margin-top:40px;
 	margin-left:10%;
-	margin-right:10px;
-	margin-bottom:40px;
     float:left;
 	
 }
 .c{
-	font-family:unifrakturcook;
-	font-size:18px;
-	text-align:left;
-	line-height:1.2em;
-	padding:10px;
-    width: 70%;
-    margin-top:5%;
-	margin-left:10%;
-    float:left;
+	width: 70%;
+	float: left;
+	padding: 30px;
+	margin: 40px;
 	
 }
 #sticky footer{position:fixed;
@@ -79,4 +75,18 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 	   display: block;
 	   margin: 20px auto;
    }
+<<<<<<< HEAD
    
+=======
+   .left {
+		width: 40%;
+		padding: 5%;
+		float: left;
+		min-width: 320px;}
+		
+		.right{
+		width: 40%;
+		padding: 5%;
+		float: left;
+		min-width: 320px;}
+>>>>>>> origin/master
