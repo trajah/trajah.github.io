@@ -3,11 +3,11 @@
       height: 40px;  
       width: 100%;  
       background:#995E0C;  
-      font-size: 10pt;  
-      font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight:bolder;  
+      font-size: 11pt;  
+      font-family: Arial, sans-serif;  
+      font-weight: bold;  
       position: relative;  
-      /*border-bottom: 1px solid #666;*/
+      border-bottom: 1px solid #666;  
   }  
   nav ul {  
       padding: 0;  
@@ -40,7 +40,7 @@ nav a {
   text-align: center;  
   text-decoration: none;  
   line-height: 40px;  
- 
+  text-shadow: 1px 1px 0px #000;
 } 
 nav li a {  
     border-right: 1px solid #EFE4E5;  
