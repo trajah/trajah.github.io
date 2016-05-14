@@ -1,4 +1,4 @@
-/* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */
+/* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */  
 h1{
     text-align: center;
     color:hsla(359,88%,17%,1.00);
@@ -87,3 +87,14 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 		padding: 5%;
 		float: left;
 		min-width: 320px;}
+		
+		.box {
+		width: 190px;
+		height: 100px;
+		background: #eee;
+		margin: 0px 5px 5px 0px;
+		float: left;
+		text-align: center;
+		padding-top: 75px; 
+		border: 1px solid #777;
+	}
