@@ -78,4 +78,7 @@ a:visited{ color: hsla(179,42%,48%,1.00);}
 a:hover{color: hsla(26,51%,56%,1.00);}
 a:active{color: hsla(108,48%,52%,1.00);}
 
-#main-content p{ margin-bottom: 1em;}
+#main-content p{ 
+    margin-top: 3em;
+    margin-bottom:3em
+        ;}
