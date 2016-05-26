@@ -11,12 +11,12 @@
 
 body{
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size:16px;
+	font-size:12px;
 		
 }
 
 header {
-	height:6em; /*6*16px*/
+	height:4em; /*6*16px*/
 	text-align:center;
 	padding: 2em;
 	background: #ddd;
@@ -57,7 +57,7 @@ nav .col{ background: none;
 /* type styles */
 h1{ 
 font-family: 'Inknut Antiqua', serif;
-font-size: 4em;
+font-size: 2em;
     font-weight:100;
 	letter-spacing:2px;
 	text-transform:uppercase;
@@ -79,6 +79,6 @@ a:hover{color: hsla(26,51%,56%,1.00);}
 a:active{color: hsla(108,48%,52%,1.00);}
 
 #main-content p{ 
-    margin-top: 3em;
+    margin-top: 6em;
     margin-bottom:3em
         ;}
