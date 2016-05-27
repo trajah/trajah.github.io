@@ -34,7 +34,11 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 	background-size:cover;
 	
 }
-p{ 	width: 300px;
+p{ 	
+	position: relative;
+	top: 70px;
+	left: 70px;
+	width: 300px;
 	}
 
 #main-content p{ margin-bottom: 1em;}
