@@ -33,8 +33,9 @@
 	<link rel="stylesheet" href="css/12cols.css" media="all">
     <link rel-="stylesheet" href="css/custom.css" media="all">
 	<link rel="stylesheet" href="css/style2.css" media="all"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/footer.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+     <link href="css/footer.css" rel="stylesheet" type="text/css">
+     <link href="css/layout.css" rel="stylesheet" type="text/css">
     
     <!-- jquery and javascript for menu --->
 <script src="http://code.jquery.com/jquery-latest.min.js"
@@ -45,8 +46,12 @@
 <title>LANCASTER AMISH CHURCH</title>
 </head>
 
-<body><h1>Lancaster Amish Church</h1>
-	<nav class="clearfix">
+<body>
+<div id="header"><h1>Lancaster Amish Church</h1>
+</div>
+	
+    <div id="nav">
+    <nav class="clearfix">
 		<a href="#" id="pull">Menu</a>    
 		<ul class="clearfix">  
 			<li><a href="index.html">Home</a></li>  
@@ -59,10 +64,12 @@
             <li><a href="credits.html">Credits</a></li>
             
 		</ul>  
+        
 	</nav>  
-	
+    </div>
+	<div id="main-content" class="section group">
     <p><img src="images/Amish Elders.jpg" alt="Amish Elders" class="align-center" width="700" height="500"></p>
-   <div id="main-content" class="section group">
+   
  <div class="col span_1_of_3"><p>The church is in the center of Amish culture.  The church closely monitors ordnung, the German word for order, discipline, rule or system.  Ordnung is the blueprint for expected Amish behavior. It is considered to be the divine order of how life should be lived. The Amish believe that God has called them to live a simple life.  They wear plain clothes and gather together in houses to worship.  They sing songs with no music and instead of a pastor, a community leader conducts the service. In their church services the Amish use the Ausbund, this is the oldest Protestant hymnal in continuous use.  The Ausbund is a small 900 page book containing the words to 140 songs.  It was first published in 1564.  Throughout its history it has been confiscated several times and burned as a heretical book.</p>
  <p>Each family is required to open their home for worship at least once a year.  Services are held every other Sunday.  Services last for about three hours.  Backless benches are transported from house to house.</p>
 <p>During services, men and women sit separately.  Sermons are preached in the Pennsylvania German dialect.
@@ -70,22 +77,23 @@ The Amish use the Bible, Martyrs Mirror (A book of stories about the martyrs), t
 </p></div>
 
 
-<div class="col span_1_of_3">
+<div class="col span_2_of_3">
 <h2>History</h2>
 <p>The Amish arrived in America in the 16th century. They were trying to escape the persecution, in Europe, for their Anabaptist beliefs.  The Anabaptists believed that only adults who confessed their faith should be baptized.  This did not sit well with the Catholics and Protestants.  As a result the Anabaptists were labeled as heretics and persecuted.  Many fled to Germany and Switzerland and became farmers and met in houses to conduct services.  In 1536 a young Catholic priest from Holland named, Menno Simons joined the Anabaptist movement and began his own teachings- his followers are called the Mennonites.  In 1693 a Swiss bishop, by the name of Jacob Amman joined the movement and then broke away from the Mennonites.  His followers are the Amish. A third group called the Brethren also hold Anabaptist doctrines.  The three groups share similar beliefs but varied in the level of how much of the “outside” world they will adopt.  Of the three groups, The Old order Amish are the more conservative.  In trying to separate themselves from the non-Amish, they have shunned most simple modern conveniences such as electricity.
 When William Penn, a Quaker, arrived in America in 1682, he founded Pennsylvania and promoted religious freedom as a part of his “Holy Experiment” of religious tolerance.  As they tried to escape persecution in Europe, many Amish settled in Indiana, Ohio, and Illinois.  Although there is a higher concentration of Amish in Pennsylvania and the Midwest, there are Amish in places like Kansas and Oklahoma.  However, the oldest order of Amish, and the largest number of Amish in the United States, live in Lancaster County, Pennsylvania.  
 </p></div>
-<div class="col span_1_of_3"><h2>Elders</h2>
+<div class="col span_3_of_3"><h2>Elders</h2>
 <p>Social interactions are shaped by gender, age and leadership roles.  Men and women sit separately during church services.  The men and women enter into the meeting area by age in descending order.  Since the church is the center of Amish life and has authority over the conduct of the Amish people, seating the people by gender and age instead of in family units symbolizes their accountability to the leadership of the church rather than to their family.</p>
 	</div>
 </div>
 
- </body>
 
-<footer class="site-footer">
+
+<div id="footer">
 <p>&copy 2016  <a href="sources.html">Photo credit:</a></p>
   <p>Contact information: <a href="mailto:timrajah@gmail.com">Contact Info</a></p>
-  </footer>
+  </div>
+   </body>
  
 
 </html>
