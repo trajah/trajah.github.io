@@ -22,7 +22,7 @@ img{ background-repeat:no-repeat;
 	background-position:center;
 	opacity:21;}
 
-body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+body{ font-family: font-family:unifrakturcook;
       font-style:normal;
 	  font-weight:normal;
 	  color:rgba(0,0,0,1.00);
@@ -36,25 +36,24 @@ body{ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbo
 }
 p{ 	
 	position: relative;
-	top: 70px;
-	left: 70px;
+	
 	width: 300px;
 	}
 
 #main-content p{ margin-bottom: 1em;}
 
 .a{
-    font-family:unifrakturcook;
-	font-size:18px;
+    
+
 	text-align:left;
 	padding:10px;
     width: 70%;
     margin-top:30%;
 	margin-left:10%;
-    float:left;
+    float:right;
 }
-.aa{ font-family:unifrakturcook;
-	font-size:18px;
+.aa{ 
+	
 	text-align:left;
 	padding:10px;
     width: 70%;
@@ -62,8 +61,8 @@ p{
 	margin-left:10%;
 }
 .b{
-	ont-family:unifrakturcook;
-	font-size:18px;
+	
+	
 	text-align:left;
 	padding:10px;
     width: 70%;

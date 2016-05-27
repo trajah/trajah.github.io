@@ -1,7 +1,7 @@
 /* CSS Document for Sticky footer*/
 
 * {
-  margin: 0;
+  margin: 10%;
 }
 html, body {
   height: 100%;
@@ -9,16 +9,18 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -30px; 
+  margin-bottom: -60px; 
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 30px; 
+  height: 60px; 
 }
 .site-footer {
-  background: orange;
+  background: #995E0C;
+  position:absolute; 
+  width: 100%;
 }
 
