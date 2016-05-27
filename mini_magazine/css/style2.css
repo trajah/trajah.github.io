@@ -3,12 +3,13 @@ h1{
     text-align: center;
     color:hsla(359,88%,17%,1.00);
     font-size: 50px;
-	position:relative;
+	position; align-content:center; 
 	padding: 10px; 
 	left: 0px;
 	top: 0px;
-	width: 100px;
-	background-color: #B6B2AF; 
+	width: 100%;
+	
+	 
 }
 h2{ font-size:35px;
      text-align: center;
@@ -20,6 +21,11 @@ h3{font-size:25px;
 img.align-left{ float: left; 
 				margin-right: 10px;}
 				
+img.align-rigt{ float: right; 
+				margin-right: 10px;}
+
+img.align-center{ display: block; margin: 20px; }
+				
 
 body{ 
 	  background: #DCD7A2; 
@@ -30,9 +36,10 @@ body{
 	
 }
 p{ 	
+	margin: 30px;
 	position: relative;
-	
-	width: 300px;
+	left: 30px;
+	width: 350px;
 	}
 
 #main-content p{ margin-bottom: 1em;}
@@ -76,7 +83,7 @@ p{
 #sticky footer{position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:75px;
    width:100%;
    background:#999;}
    img.align-center{
