@@ -35,13 +35,13 @@ header, section, footer, aside, nav, article, figure, figcaption { display: bloc
 body{ color: #1B1B1B;
       background-color: #DCD7A2;
 	  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size:12px;
+	font-size:16px;
 	  line-height: 1.4em;
 	  margin: 0px;}
 	  
 .wrapper{ width: 1000px;
           margin: 20px auto 20px auto;
-		  border: 2px solid #000000;
+		  
 		  background-color: #DCD7A2;}
 		  
 header {  height: 16px;
@@ -59,10 +59,10 @@ h1{
 	width: 100%;}
 	
 h2{ font-size:35px;
-     text-align: center;
+     
 	 color:rgba(48,14,9,1.00);}
 h3{font-size:25px;
-   text-align: center;	
+  
    color: rgba(48,14,9,1.00);
 	
 	 
@@ -91,9 +91,15 @@ nav li a:hover, vav li a.current{
 		border-right: 1px solid #eeeeee;}
 		
 article { clear: both;
-overflow: auto;
+overflow: scroll;
+width: 70%;
+height: 400px;
 margin: 5%;
 width: 90%;}
+
+#news { overflow:scroll;
+        width: 200px;
+		height: 600px; }
 #main-content p{ 
     margin-top: 6em;
     margin-bottom:3em
@@ -153,6 +159,11 @@ footer {
    width:100%;
    background:#999;}
 	 
+	 .facts{ padding: 20px;
+	         margin: 30px;
+			 overflow: scroll;
+			 width: 300px;
+			 height: 400px; }
 	 
 		
 		  
