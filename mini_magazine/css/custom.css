@@ -11,7 +11,8 @@
 
 body{
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size:12px;
+	font-size:16px;
+	background-color:#DCD7A2;
 		
 }
 
@@ -39,8 +40,8 @@ nav .col{ background: none;
 }
 
 #banner{
-	background: hsla(249,58%,74%,1.00);
-	height:10em;
+	background:#ffc79;
+	height:20em;
 	margin-bottom: .5em;
 	
 	
