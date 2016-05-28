@@ -12,7 +12,7 @@
   nav ul {  
       padding: 0;  
       margin: 0 auto;  
-      width: 900px;  
+      width: 1000px;  
       height: 40px;  
   }  
   nav li {  
@@ -36,10 +36,10 @@
 nav a {  
   color: #0C0B0B;  
   display: inline-block;  
-  width: 100px;  
+  width: 150px;  
   text-align: center;  
   text-decoration: none;  
-  line-height: 40px;  
+  line-height: 30px;  
  
 } 
 nav li a {  
