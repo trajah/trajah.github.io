@@ -1,28 +1,41 @@
-/* CSS Document */
-<!--body{ width: 90%;
-<!--margin: 0 auto;}
-<!--h1{ width: 100%;
-<!--align-content:center;}
-
-<!--#header { 
-<!--width: 100%; margin: 30px;   }
-<!--#nav {   
-<!--width: 100%;
-  }
-
-<!--#footer{ padding: 0.5em 0;   }
 
 
+/* CSS Document *//* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */  
+
+	 
+<!---Google Fonts --->
+@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
+
+img.align-left{ float: left; 
+				margin-right: 10px;}
+				
+img.align-rigt{ float: right; 
+				margin-right: 10px;}
+
+img.align-center{ display: block; margin: 20px; }
+	
+	  
+	
+	
+	
+p{ 	
+	margin: 30px;
+	position: relative;
+	left: 30px;
+	width: 350px;
+	}
+
+#main-content p{ margin-bottom: 1em;}
 
 
-/* CSS Document */
+
+   
 header, section, footer, aside, nav, article, figure, figcaption { display: block;}
 
 body{ color: #1B1B1B;
       background-color: #DCD7A2;
-	  background-image: url("../images/farmland.jpg");
-	  background position: center;
-	  font-family: Georgia, Times, serif;
+	  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:12px;
 	  line-height: 1.4em;
 	  margin: 0px;}
 	  
@@ -34,10 +47,24 @@ body{ color: #1B1B1B;
 header {  height: 16px;
           background-color: #DCD7A2 }
 h1{  
-	text-align:center; 
-     width: 1000px;
-	 height: 130px;
-	 margin: 10px; }
+	 
+	
+    text-align: center;
+    color:rgba(48,14,9,1.00);;
+    font-size: 50px;
+	 
+	padding: 10px; 
+	left: 0px;
+	top: 0px;
+	width: 100%;}
+	
+h2{ font-size:35px;
+     text-align: center;
+	 color:rgba(48,14,9,1.00);}
+h3{font-size:25px;
+   text-align: center;	
+   color: rgba(48,14,9,1.00);
+	
 	 
 	 
 nav, footer { clear: both;
@@ -67,6 +94,10 @@ article { clear: both;
 overflow: auto;
 margin: 5%;
 width: 90%;}
+#main-content p{ 
+    margin-top: 6em;
+    margin-bottom:3em
+        ;}
 
 hgroup{ margin-bottom: 40px;}
 
@@ -114,6 +145,13 @@ aside h2 {
 footer {
 	 font-size: 80%;
 	 padding: 7px 0px 0px 20px;}
+	 
+#sticky footer{position:fixed;
+   left:0px;
+   bottom:0px;
+   height:75px;
+   width:100%;
+   background:#999;}
 	 
 	 
 		
