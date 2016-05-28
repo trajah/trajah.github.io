@@ -12,10 +12,11 @@
     width: 100%;
    height: auto;
    margin: 38%;
+   
   }
 
 #slideshow div {
-   position:relative;
+   position:fixed;
    
    	width: 50%;
 	height: 50%;
