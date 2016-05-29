@@ -1,11 +1,12 @@
 /* CSS FOR NAVIGATION BARS */
     /* CSS FOR NAVIGATION BARS */
     nav {  
+	   
       height: 40px;  
       width: 100%;  
       background:#aa7941;  
-      font-size: 11pt;  
-      font-family: Arial, sans-serif;  
+      font-size: 15px;  
+      font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; 
       font-weight: bold;  
       position: relative;  
       border-bottom: 1px solid #666;  
@@ -86,7 +87,7 @@ nav a#pull {
     nav a {  
         text-align: left;  
         width: 100%;  
-        text-indent: 25px;  
+        text-indent: 15px;  
     }  
 }  
 
@@ -110,7 +111,7 @@ nav a#pull {
 
     nav a#pull {  
         display: block;  
-        background-color: #333; 
+        background-color: #aa7941; 
         border-bottom: 1px solid #666; 
         width: 100%;  
         position: relative;  
@@ -118,11 +119,11 @@ nav a#pull {
     nav a#pull:after {  
         content: "\f0c9";
         font-family: FontAwesome;
-        width: 64px;  
-        height: 64px;  
+        width: 30px;  
+        height: 30px;  
         display: inline-block;  
         position: absolute;  
-        left: 50px;  
-        top: 0px;  
+        left: 15px;  
+        top: 10px;  
     }  
 } 

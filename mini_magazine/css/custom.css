@@ -1,6 +1,7 @@
 /* CSS Document */
-<!---Google Fonts --->
+/*Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica|Noto+Serif);
 /* Development Helper Style */
 .col{
 	background: #ddd;
@@ -10,7 +11,7 @@
 /* main style */
 
 body{
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	
 	font-size:16px;
 	background-color:#DCD7A2;
 		
@@ -20,7 +21,7 @@ header {
 	height:4em; /*6*16px*/
 	text-align:center;
 	padding: 2em;
-	background: #ddd;
+	background: #ffc79;
 	margin-bottom: 0.5em;
 	
        }
@@ -30,15 +31,9 @@ header {
 	margin: 0 auto;
 }
 	   
-nav .col{ background: none;
-       border: 1px solid #555;
-	   text-align:center;
-	   box-sizing:border-box;
-	   
-	
-	
-}
 
+	
+	
 #banner{
 	background:#ffc79;
 	height:20em;
@@ -58,7 +53,7 @@ nav .col{ background: none;
 /* type styles */
 h1{ 
 font-family: 'Inknut Antiqua', serif;
-font-size: 2em;
+font-size: 4em;
     font-weight:100;
 	letter-spacing:2px;
 	text-transform:uppercase;
@@ -73,9 +68,8 @@ header h2{
 	
 	
 }
-nav ul li a { font-family: 'Ultra', serif;
-font-size: 2em;}
 
+/* LINKS FORMAT */
 a:visited{ color: hsla(179,42%,48%,1.00);}
 a:hover{color: hsla(26,51%,56%,1.00);}
 a:active{color: hsla(108,48%,52%,1.00);}
@@ -84,3 +78,23 @@ a:active{color: hsla(108,48%,52%,1.00);}
     margin-top: 6em;
     margin-bottom:3em
         ;}
+		
+/*Paragraph Format */
+ p {	font-size: 14px;
+	font-family: 'Noto Serif', serif;
+ 	margin: 15px;
+	padding: 15px;
+	background-color: #E8D9DA;}
+
+
+/* FOOTER FORMAT */	 
+	 footer {
+	 font-size: 80%;
+	 padding: 7px 0px 0px 20px;}
+	 
+#sticky footer{position:fixed;
+   left:0px;
+   bottom:0px;
+   height:75px;
+   width:100%;
+   background:#999;}
