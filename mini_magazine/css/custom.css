@@ -27,6 +27,8 @@ header {
 #container{
 	width:80%;
 	margin: 10%;
+	float: left;
+	position: fixed;
 }
 	   
 nav .col{ background: none;

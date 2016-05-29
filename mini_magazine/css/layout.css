@@ -3,7 +3,7 @@
 /* CSS Document *//* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */  
 
 	 
-<!---Google Fonts --->
+/*Google Fonts*/
 @import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
 
 img.align-left{ float: left; 
@@ -33,7 +33,7 @@ p{
 header, section, footer, aside, nav, article, figure, figcaption { display: block;}
 
 body{ color: #1B1B1B;
-      background-color: #DCD7A2;
+      background-color: #ffcc99;
 	  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size:16px;
 	  line-height: 1.4em;
