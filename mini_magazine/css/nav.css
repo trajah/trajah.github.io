@@ -1,8 +1,7 @@
-/* CSS FOR NAVIGATION BARS */
     nav {  
       height: 40px;  
       width: 100%;  
-      background:#995E0C;  
+      background: #333;  
       font-size: 11pt;  
       font-family: Arial, sans-serif;  
       font-weight: bold;  
@@ -12,7 +11,7 @@
   nav ul {  
       padding: 0;  
       margin: 0 auto;  
-      width: 1000px;  
+      width: 600px;  
       height: 40px;  
   }  
   nav li {  
@@ -34,16 +33,16 @@
 }  
 
 nav a {  
-  color: #0C0B0B;  
+  color: #fff;  
   display: inline-block;  
-  width: 150px;  
+  width: 100px;  
   text-align: center;  
   text-decoration: none;  
-  line-height: 15px;  
- 
+  line-height: 40px;  
+  text-shadow: 1px 1px 0px #000;
 } 
 nav li a {  
-    border-right: 1px solid #EFE4E5;  
+    border-right: 1px solid #666;  
     box-sizing:border-box;  
     -moz-box-sizing:border-box;  
     -webkit-box-sizing:border-box;  
@@ -52,11 +51,8 @@ nav li:last-child a {
     border-right: 0;  
 } 
 
-nav a:hover, nav a:active, nav .selected {  
-    background-color: #56A7DC;  
-}
-nav a:visited {
-	background-color:#E4D7D7;
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
 }
 
 nav a#pull {  
