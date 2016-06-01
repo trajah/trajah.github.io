@@ -2,6 +2,220 @@
 
 /* CSS Document *//* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */  
 
+/* CSS Document */
+<!---Google Fonts --->
+@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
+/* Development Helper Style */
+.col{
+	background: #ddd;
+	box-sizing:border-box;
+}
+
+/* main style */
+
+body{
+	margin: 15px;
+		
+}
+
+header {
+	height:500px; 
+	text-align:center;
+	padding: 2em;
+	background: #ddd;
+	margin-bottom: 0.5em;
+	
+       }
+	   #belowslide{ align-content: center;
+	                margin-bottom: 40px; }
+					
+
+article {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;}
+	margin: 10px;
+	padding: 10px;
+					
+	   
+#container{
+	width:80%;
+	margin: 10%;
+	float: left;
+	position: relative;
+}
+	   
+nav .col{ background: none;
+       border: 1px solid #555;
+	   text-align:center;
+	   box-sizing:border-box;
+	   
+	
+	
+}
+
+#banner{
+	background: hsla(249,58%,74%,1.00);
+	height:10em;
+	margin-bottom: .5em;
+	
+	
+}
+#row1 .col, #row2 .col{ 
+            height:6em;
+			
+}
+#row2 .col{
+	    height:6em;
+}
+	   
+
+/* type styles */
+h1{ 
+font-family: 'Inknut Antiqua', serif;
+font-size: 2em;
+    font-weight:100;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin-bottom: .5em;
+	width: 100%;
+}
+
+header h2{
+	font-family: 'Ultra', serif;
+	font-size:1em;
+	font-weight:100;
+	
+	
+}
+nav ul li a { font-family: 'Ultra', serif;
+font-size: 2em;}
+
+a:visited{ color: hsla(179,42%,48%,1.00);}
+a:hover{color: hsla(26,51%,56%,1.00);}
+a:active{color: hsla(108,48%,52%,1.00);}
+
+#main-content p{ 
+    margin-top: 6em;
+    margin-bottom:3em
+        ;}
+		
+		
+		/* CSS STYLE FOR HEADERS, DIV, IMAGES, BODY */  
+h1{
+    text-align: center;
+    color:hsla(359,88%,17%,1.00);
+    font-size: 50px;
+	align-content:center; 
+	padding: 10px; 
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	
+	 
+}
+h2{ font-size:35px;
+     text-align: center;
+	 color:rgba(35,38,81,1.00)}
+h3{font-size:25px;
+   text-align: center;	
+   color: rgba(48,14,9,1.00);
+}
+img.align-left{ float: left; 
+				margin-right: 10px;}
+				
+img.align-rigt{ float: right; 
+				margin-right: 10px;}
+
+img.align-center{ display: block; margin: 20px; }
+				
+
+body{ 
+	  background: #DCD7A2; 
+	  
+	
+	
+	background-size:cover;
+	
+}
+p{ 	
+	margin: 30px;
+	position: relative;
+	left: 30px;
+	width: 350px;
+	}
+
+#main-content p{ margin-bottom: 1em;}
+
+.a{
+    
+
+	text-align:left;
+	padding:10px;
+    width: 70%;
+    margin-top:30%;
+	margin-left:10%;
+    float:right;
+}
+.aa{ 
+	
+	text-align:left;
+	padding:10px;
+    width: 70%;
+    margin-top:15%;
+	margin-left:10%;
+}
+.b{
+	
+	
+	text-align:left;
+	padding:10px;
+    width: 70%;
+    margin:40px;
+	
+    float:left;
+	
+}
+.c{
+	width: 70%;
+	float: left;
+	padding: 30px;
+	margin: 40px;
+	
+}
+#sticky footer{position:fixed;
+   left:0px;
+   bottom:0px;
+   height:75px;
+   width:100%;
+   background:#999;}
+   img.align-center{
+	   display: block;
+	   margin: 20px auto;
+   }
+   .left {
+		width: 35%;
+		padding: 5%;
+		float: left;
+		min-width: 320px;}
+		
+		.right{
+		width: 35%;
+		padding: 5%;
+		float: left;
+		min-width: 320px;}
+		
+		.box {
+		width: 190px;
+		height: 100px;
+		background: #eee;
+		margin: 0px 5px 5px 0px;
+		float: left;
+		text-align: center;
+		padding-top: 75px; 
+		border: 1px solid #777;
+	}
+
 	 
 /*Google Fonts*/
 @import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
@@ -19,10 +233,8 @@ img.align-center{ display: block; margin: 20px; }
 	
 	
 p{ 	
-	margin: 30px;
-	position: relative;
-	left: 30px;
-	width: 350px;
+	width:100;
+	margin: 10px;
 	}
 
 #main-content p{ margin-bottom: 1em;}
@@ -139,7 +351,7 @@ a {       color: #de6581;
           text-decoration: none; }
 		  
 h1, h2, h3 {
-	      font-weight: normal; }
+	      font-weight: bold; }
 h2{  margin: 10px 0px 5px 0px; 
      padding: 0px; }
 	 
