@@ -14,7 +14,8 @@
 /* main style */
 
 body{
-	margin: 15px;
+	margin: 15px
+	padding: 10px;
 		
 }
 
@@ -157,30 +158,7 @@ p{
 	margin-left:10%;
     float:right;
 }
-.aa{ 
-	
-	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin-top:15%;
-	margin-left:10%;
-}
-.b{
-	
-	
-	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin:40px;
-	
-    float:left;
-	
-}
-.c{
-	width: 70%;
-	float: left;
-	padding: 30px;
-	margin: 40px;
+
 	
 }
 #sticky footer{position:fixed;
@@ -257,125 +235,8 @@ body{ color: #1B1B1B;
 		  background-color: #DCD7A2;}
 		  
 header {  height: 16px;
-          background-color: #DCD7A2 }
-h1{  
+ 
 	 
-	
-    text-align: center;
-    color:rgba(48,14,9,1.00);;
-    font-size: 50px;
-	 
-	padding: 10px; 
-	left: 0px;
-	top: 0px;
-	width: 100%;}
-	
-h2{ font-size:35px;
-     
-	 color:rgba(48,14,9,1.00);}
-h3{font-size:25px;
-  
-   color: rgba(48,14,9,1.00);
-	
-	 
-	 
-nav, footer { clear: both;
-color: #ffffff;
-background-color: #aeaca8;
-height: 30px; }
 
-nav ul{
-	margin: 0px;
-	padding: 5px 0 px 5px 30px; }
-	
-nav li {
-	margin: 0px; 
-	padding: 5px 0px 5px 30px; }
-	
-nav li a{ color: #ffffff; }
-
-nav li a:hover, vav li a.current{
-	color: #000000;}
-	
-	section.courses{
-		float: left;
-		width: 659px; 
-		border-right: 1px solid #eeeeee;}
-		
-article { clear: both;
-overflow: scroll;
-width: 70%;
-height: 400px;
-margin: 5%;
-width: 90%;}
-
-#news { overflow:scroll;
-        width: 200px;
-		height: 600px; }
-#main-content p{ 
-    margin-top: 6em;
-    margin-bottom:3em
-        ;}
-
-hgroup{ margin-bottom: 40px;}
-
-figure{ float: left; 
-        width: 355px;
-		height: 205px; 
-		padding: 5px;
-		margin: 20px; 
-		border: 1px solid #eeeeee; }
-		
-aside{ width: 230px;
-       float: left;
-	   padding: 0px 0px 0px 20px;}
-	   
-aside section a{
-	display: block; 
-	padding: 10px; 
-	border-bottom: 1px solid #eeeeee; }
-	
-figcaption { font-size: 90%;
-             text-align: left; }
-			 
-aside {
-	      width: 230px;
-		  float: left;
-		  padding: 0px 0px 0px 20px; }
-		  
-aside section a:hover {
-	      color: #985d6a;
-		  background-color: #efefef; }
-		  
-a {       color: #de6581;
-          text-decoration: none; }
-		  
-h1, h2, h3 {
-	      font-weight: bold; }
-h2{  margin: 10px 0px 5px 0px; 
-     padding: 0px; }
-	 
-h3{  margin: 0px 0px 10px 0px;
-     color: #de6581;}
-aside h2 {
-	 padding: 30px 0px 10px 0px;
-	 color: #de6581; }
-footer {
-	 font-size: 80%;
-	 padding: 7px 0px 0px 20px;}
-	 
-#sticky footer{position:fixed;
-   left:0px;
-   bottom:0px;
-   height:75px;
-   width:100%;
-   background:#999;}
-	 
-	 .facts{ padding: 20px;
-	         margin: 30px;
-			 overflow: scroll;
-			 width: 300px;
-			 height: 400px; }
-	 
 		
 		  
