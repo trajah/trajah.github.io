@@ -27,8 +27,7 @@ header {
 	margin-bottom: 0.5em;
 	
        }
-	   #belowslide{ align-content: center;
-	                margin-bottom: 40px; }
+	   
 					
 
 article {
@@ -101,12 +100,6 @@ a:active{color: hsla(108,48%,52%,1.00);}
 	
 #main-content p{ margin-bottom: 1em;}
 
-.a{ 	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin-top:30%;
-	margin-left:10%;
-    float:right; }
 
 	
 
@@ -116,36 +109,9 @@ a:active{color: hsla(108,48%,52%,1.00);}
    height:75px;
    width:100%;
    background:#999;}
-   img.align-center{
-	   display: block;
-	   margin: 20px auto;
-   }
-   .left {
-		width: 35%;
-		padding: 5%;
-		float: left;
-		min-width: 320px;}
-		
-		.right{
-		width: 35%;
-		padding: 5%;
-		float: left;
-		min-width: 320px;}
-		
-		.box {
-		width: 190px;
-		height: 100px;
-		background: #eee;
-		margin: 0px 5px 5px 0px;
-		float: left;
-		text-align: center;
-		padding-top: 75px; 
-		border: 1px solid #777;
-	}
+   
 
-	 
-/*Google Fonts*/
-@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
+
 
 img.align-left{ float: left; 
 				margin-right: 10px;}
@@ -183,17 +149,12 @@ body{ color: #1B1B1B;
 		  
 		  background-color: #DCD7A2;}
 		  
-header {  height: 16px;
+
  
 	 
 /* CSS Document for Sticky footer*/
 
-* {
-  margin:10%;}
 
-html, body {
-  height: 100%;
-}
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -270,13 +231,7 @@ h3{font-size:25px;
    text-align: center;	
    color: rgba(48,14,9,1.00);
 }
-img.align-left{ float: left; 
-				margin-right: 10px;}
-				
-img.align-rigt{ float: right; 
-				margin-right: 10px;}
 
-img.align-center{ display: block; margin: 20px; }
 				
 
 body{ 
@@ -296,81 +251,23 @@ p{
 
 #main-content p{ margin-bottom: 1em;}
 
-.a{
-    
+	
+	
 
-	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin-top:30%;
-	margin-left:10%;
-    float:right;
-}
-.aa{ 
-	
-	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin-top:15%;
-	margin-left:10%;
-}
-.b{
-	
-	
-	text-align:left;
-	padding:10px;
-    width: 70%;
-    margin:40px;
-	
-    float:left;
-	
-}
-.c{
-	width: 70%;
-	float: left;
-	padding: 30px;
-	margin: 40px;
-	
-}
 #sticky footer{position:fixed;
    left:0px;
    bottom:0px;
    height:75px;
    width:100%;
    background:#999;}
-   img.align-center{
-	   display: block;
-	   margin: 20px auto;
-   }
-   .left {
-		width: 35%;
-		padding: 5%;
-		float: left;
-		min-width: 320px;}
-		
-		.right{
-		width: 35%;
-		padding: 5%;
-		float: left;
-		min-width: 320px;}
-		
-		.box {
-		width: 190px;
-		height: 100px;
-		background: #eee;
-		margin: 0px 5px 5px 0px;
-		float: left;
-		text-align: center;
-		padding-top: 75px; 
-		border: 1px solid #777;
-	}
+   
 	
 	/* NAV BAR CUSTOMIZATION */
 	    nav {  
       height: 40px;  
       width: 100%;  
       background: #333;  
-      font-size: 11pt;  
+      font-size: 18px;  
       font-family: Arial, sans-serif;  
       font-weight: bold;  
       position: relative;  
