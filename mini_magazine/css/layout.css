@@ -7,7 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,500,900,800,700,600,300|Ultra);
 /* Development Helper Style */
 .col{
-	background: #ddd;
+	background: #ffc99;
 	box-sizing:border-box;
 }
 
@@ -23,12 +23,14 @@ header {
 	height:500px; 
 	text-align:center;
 	padding: 2em;
-	background: #ddd;
+	background: #ffcc99;
 	margin-bottom: 0.5em;
 	
        }
 	   
-					
+img {	max-width: 100%;
+        height: auto;
+		 border: 1px solid #ddd; }				
 
 article {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -84,8 +86,6 @@ header h2{
 	
 	
 }
-nav ul li a { font-family: 'Ultra', serif;
-font-size: 2em;}
 
 a:visited{ color: hsla(179,42%,48%,1.00);}
 a:hover{color: hsla(26,51%,56%,1.00);}
@@ -113,21 +113,17 @@ a:active{color: hsla(108,48%,52%,1.00);}
 
 
 
-img.align-left{ float: left; 
-				margin-right: 10px;}
-				
-img.align-rigt{ float: right; 
-				margin-right: 10px;}
-
-img.align-center{ display: block; margin: 20px; }
-	
+i
 	  
 	
 	
 	
 p{ 	
 	width:100;
-	margin: 10px;
+	padding: 10px; 
+	margin: 20px;
+	float: left; 
+	background: #ffc79;
 	}
 
 #main-content p{ margin-bottom: 1em;}
@@ -137,8 +133,8 @@ p{
    
 header, section, footer, aside, nav, article, figure, figcaption { display: block;}
 
-body{ color: #1B1B1B;
-      background-color: #ffcc99;
+body{ color: #000000;
+      background-color:#FFCC99;
 	  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size:16px;
 	  line-height: 1.4em;
@@ -215,21 +211,24 @@ body{ color: #1B1B1B;
 h1{
     text-align: center;
     color:hsla(359,88%,17%,1.00);
-    font-size: 50px;
+    font-size: 66px;
 	align-content:center; 
 	padding: 10px; 
 	left: 0px;
 	top: 0px;
 	width: 100%;
+	margin: 20px;
 	
 	 
 }
-h2{ font-size:35px;
+h2{ font-size:50px;
      text-align: center;
-	 color:rgba(35,38,81,1.00)}
-h3{font-size:25px;
+	 color:rgba(35,38,81,1.00)
+	 margin: 20px;}
+h3{font-size:40px;
    text-align: center;	
    color: rgba(48,14,9,1.00);
+   margin: 20px;
 }
 
 				
@@ -246,7 +245,7 @@ p{
 	margin: 30px;
 	position: relative;
 	left: 30px;
-	width: 350px;
+	
 	}
 
 #main-content p{ margin-bottom: 1em;}
@@ -267,7 +266,7 @@ p{
       height: 40px;  
       width: 100%;  
       background: #333;  
-      font-size: 18px;  
+      font-size: 15px;  
       font-family: Arial, sans-serif;  
       font-weight: bold;  
       position: relative;  
@@ -275,8 +274,9 @@ p{
   }  
   nav ul {  
       padding: 0;  
-      margin: 0 auto;  
-      width: 600px;  
+      margin: 0 auto; 
+	  text-align: center; 
+      width: 77%;  
       height: 40px;  
   }  
   nav li {  
@@ -300,7 +300,7 @@ p{
 nav a {  
   color: #fff;  
   display: inline-block;  
-  width: 100px;  
+  width: 130px;  
   text-align: center;  
   text-decoration: none;  
   line-height: 40px;  
